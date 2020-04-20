@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css?ver=1.0">
+  <title>Hex Converter</title>
+</head>
+<body>
+  <div id="backgroundImage"></div>
+  <span id="title">진수 변환기</span>
+  <span id="subtitle">수를 입력하고 입력한 수의 형식을 선택하세요.</span>
+  <div id="inputBoxContainer">
+    <input type="text" id="inputBox" placeholder="수를 입력하세요" onkeyup="inputChanged(this);">
+  </div>
+  <span id="type" onclick="changeType();">형식 오류</span>
+  <div id="typePrettier"></div>
+  <div>
+    <span class="result input"></span><span class="sub"></span>
+    <br>
+    <span class="result output"></span><span class="sub"></span>
+    <br>
+    <span class="result output"></span><span class="sub"></span>
+    <br>
+    <span class="result output"></span><span class="sub"></span>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
