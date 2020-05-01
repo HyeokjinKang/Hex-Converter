@@ -2,7 +2,7 @@
 ![Hex-Converter](./images/hex-converter.png)
 > 웹에서 쉽게 사용하는 진법 변환 계산기
 
-https://cp.croissant.tech/projects/hexconv/
+https://coupy.dev/projects/hexconv/
 
 ## 주요기능
 ![주요기능](./images/example.jpg)
